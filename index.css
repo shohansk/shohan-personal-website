@@ -1,24 +1,36 @@
-
-body{
-
-    font-family: 'Noto Sans JP', sans-serif;
-    margin: 0px;
+.topnav a{
     
+    color: #ad0606ce;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+  }
+#nav{
+    height: 100px;
 }
-.hello{
-    width: 38%;
-    float: left;
+.hello1{
+    width: 45%;
     margin-top: 2%;
-    margin-left: 5%; 
+    margin-left: 2%; 
+    float: left;
+    padding-bottom: 2%;
 }
 .highlight{
     color: coral;
 }
 .pic{
-    width: 80%;
+    width: 75%;
+}
+.pic1{
+    width: 100%;
 }
 .text{
-    margin-top: 8%;
+    margin-top: 8%; 
+}
+#text-work{
+    text-align: center;
 }
 .link{
     color: rgb(250, 250, 250);
@@ -28,6 +40,52 @@ body{
     padding: 10px 30px;
     border-radius: 5px; 
 }
-.work{
-    background-image: url(images/chat-background.png);
+.box{
+    float: left;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 15px;
+    width: 25%;
+     margin: 3%;
+     padding-right: 1%;
+     padding-left: 1%;
+     
+    
+    
+}
+.hellone{
+    margin-top: 10%;
+}
+.hellone2{
+    margin-bottom: 20%;
+
+}
+#text1{
+    text-align: left;
+}
+#last{
+    color: rgb(44, 62, 165);
+    text-align: center;
+}
+.lastpi{
+    width: 40%;
+}
+section{
+    height: 500px;
+}
+.four{
+    background-image: url("images/chat-background.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.four1{
+    margin-left: 350px;
+    float: left;
+    margin-top: 5.7cm;
+   
+}
+.four2{
+    margin-top: 6.5cm;
+    margin-right: 10cm;
+    margin-left: 4cm;
 }
