@@ -1,3 +1,8 @@
+
+   body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .topnav a{
     
     color: #ad0606ce;
@@ -48,8 +53,6 @@
      margin: 3%;
      padding-right: 1%;
      padding-left: 1%;
-     
-    
     
 }
 .hellone{
@@ -88,4 +91,32 @@ section{
     margin-top: 6.5cm;
     margin-right: 10cm;
     margin-left: 4cm;
+}
+.skill{
+    height: 350px;
+    background-color: rgb(12, 161, 211);
+    border-radius: 35px;
+    padding-top: 1%;
+}
+.three{
+    background-color: rgba(192, 192, 192, 0.178);
+    height: 600px;
+}
+.st{
+    text-align: center;
+}
+.nd{
+    text-align: center;
+}
+.rd{
+    text-align: center;
+}
+.fr{
+    text-align: center;
+}
+.ht{
+    color: rgb(0, 25, 250);
+}
+.workin{
+    color: rgb(250, 250, 250);
 }
